@@ -32,4 +32,25 @@ section{
     color: white;
     font-weight: 700;
 }
+.text-center{
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+}
+.footer{
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+.coding-develop{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
 
+.global-community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
