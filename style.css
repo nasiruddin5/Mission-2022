@@ -4,6 +4,8 @@ body{
 }
 h1{
     font-size: 50PX;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #web-border{
     border-left: 5px solid orange;
@@ -46,31 +48,34 @@ section{
     font-size: 70px;
 }
 .card-continer{
-    padding: 0 20%;
+    padding: 0 14%;
 }
 .text-align{
     text-align: center;
     font-weight: bold;
 }
 .mission{
-    background-color: burlywood;
+    background-color: rgb(253, 235, 210);
     padding: 30px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 26px;
+    box-shadow: 6px 6px 16px rgba(167, 166, 166, 0.342);
     
 }
 .vision{
-    background-color: lightblue;
+    background-color: rgb(230, 246, 252);
     padding: 30px;
     border-radius: 20px;
-    margin: 20px;
-}
+    margin: 26px;
+    box-shadow: 6px 6px 16px rgba(167, 166, 166, 0.342);
+    }
 .goals{
-    background-color: lightgreen;
+    background-color: rgb(217, 252, 217);
     padding: 30px;
     border-radius: 20px;
-    margin: 20px;
-}
+    margin: 26px;
+    box-shadow: 6px 6px 16px rgba(167, 166, 166, 0.342);
+    }
 .img-illustrate{
     width: 50%;
 
@@ -78,12 +83,20 @@ section{
 .coding-develop{
     background-image: url(images/shapes/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: 100px 5px; 
+    background-position-y: 2%;
     margin-left: 80px;
 }
-.global-community{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.get-in-touch{
+    background-color: rgb(230, 246, 252);
+    margin: 16%;
+    padding: 35px;
+    border-radius: 20px;
+    
+}
+.p-size{
+    width: 50%;
+    margin: 0 auto;
 }
 .footer{
     background-color: black;
